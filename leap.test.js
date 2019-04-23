@@ -6,7 +6,7 @@ const leap_year = require('./leap_year'); //importing the leap_year.js file so t
 //1st test for the function leap_year
 test('testing 1st phase of development (devide by 4)', () => {
     //giving input and comparing with the expected output.
-    expect(leap_year(2000)).toBe('2000 is not a Leap Year.'); 
+    expect(leap_year(2000)).toBe('2000 is not Leap Year.'); 
     expect(leap_year(2001)).toBe('2001 is not a Leap Year.');
 });
 
